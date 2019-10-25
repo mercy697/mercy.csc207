@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+  <head>
+  	<title>csc 207</title>
+  	<meta charset="utf-8">
+  </head>
+  <body>
+   <h1><center>csc 207</center></h1>
+   <p>type of lists</p>
+   <dl>
+   	<dt>ordered list</dt>
+   	  <dd>Used for information for which order is important.<br>
+      Create an Ordered List using &ltol&gt&lt/ol&gt<br>
+      Each item of the list should be specified with the list item command &ltli&gt <br>
+      Ordered list uses Arabic numerals as its default numbering type.
+      Two main attributes for OL are type and start
+      Attribute values for type are 1, A, a, I, or i<br>
+      The start attribute can be used to continue a previous numbering.<br>
+      The value of each item in the list can also be changed by using the value attribute in the &ltli&gttag.<br>
+      Ordered lists can also be nested in which case, each sub list can use a different type of numbering using the type attribute<br>syntax:
+      &ltol&gt<br>
+      &ltli&gt item 1&lt/li&gt<br>
+      &ltli&gtitem 2&lt/li&gt<br>
+      &ltli&gtitem 3&lt/li&gt<br>
+      &lt/ol&gt<br>
+      example of ordered list is
+        shopping list
+     	<ol>
+     	 <li>phone</li>
+     	 <li>bag</li>
+     	 <li>foodstuffs</li>
+     	 <li>stationaries</li>
+        </ol></dd> 
+    <dt>unordered list</dt>
+     <dd>Used for information when each item is equally important.<br>
+      Each item of the list should be specified with the list item command &ltli&gt.<br>
+      Main attribute for UL is type with values:<br>
+      disc, circle or square<br>
+      the default bullet type is disc<br>
+      example of unordered list is
+      <ul>
+        <li>Apple</li>
+        <li>Orange</li>
+        <li>Grapefruit</li>
+      </ul>
+    <dt>definition list</dt>
+     <dd>Displays a number of terms and  associated definition<br>.
+      Renders without bullets.<br>
+      Create definition lists using &ltdl&gt&lt/dl&gt<br>
+      The &ltdt&gt&lt/dt&gt tag creates a definition term in a definition list;<br>
+      The &ltdd&gt&lt/dd&gt tag defines the definition for the term and will appear indented and below the term.<br>
+      Syntax:
+      &ltdl&gt<br>
+         &ltdt&gtterm 1&lt/dt&gt<br>
+         &ltdd&gtexplanation …&lt/dd&gt<br>
+         &ltdt&gtterm 2&lt/dt&gt<br>
+         &ltdd&gtexplanation …&lt/dd&gt<br>
+         &lt/dl&gt<br>
+         example of definition list:
+         <dl>
+           <dt>HTML</dt>
+            <dd>A markup lang…</dd>
+         </dl>
+     </dd></dl>
+     <p>there is also nested ordered list-example:
+     
+     <h1>My courses for 2019/2020 session</h1>
+        <ol type="I">
+           <li>Harmattan Semester</li>
+             <ol type="1">
+               <li>gns 203</li>
+               <li>csc 207</li>
+                 <ol type="a">
+                   <li>I am learning to be a web developer.</li>
+                   <li>I am looking forward to learning HTML,CSS and JAVA script</li>
+                 </ol>  
+               <li>lis 207</li>
+             </ol>
+            <li>Rain Semester</li>
+             <ol type="1">
+                <li>csc 203</li>
+                 <ol type="a">
+                   <li>looking forward to this class</li>
+                   <li>I like the course computer science</li>
+                 </ol>
+               <li>csc 205</li>
+               <li>gns 203</li>
+        </ol>
+
+    <p>there is also nested unordered list-example:
+    	<h2>Courses I have taken at the University</h2>
+          <ul type="disc">
+            <li>Harmattan Semester 2018</li>
+             <ul type= "circle">
+               <li>gns 103</li>
+               <li>csc 101</li>
+                 <ul type="square">
+                   <li>Thank God. I survived these classes.
+                 </ul>  
+               <li>math 101</li>
+             </ul>
+            <li>Rain Semester 2018</li>
+             <ul>
+                <li>gns 104</li>
+                 <ul>
+                   <li>i enjoyed this class</li>
+                 </ul>
+               <li>sta 103</li>
+               <li>csc 102</li>
+         </ul>
+
+<a href ="form.html"target="_blank">go to form.html</a>
+    
+
+</html>
